@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #dddddd;
+}
+.add{
+  width: 100%;
+  margin:0;
+}
+.extra{
+  font-weight: bold;
+  border :0 solid;
+  color: white;
+}
+.add-space{
+  padding: 0 20px;
+  display: block;
+  width: 100%;
+}
+.user-input{
+}
+.middle{
+  margin-left:auto;
+  margin-right: 0;
+}
+.middle span{
+  padding: 0 7px;
+}
+.run-algo{
+  margin-left: auto ;
+  margin-right: 0;
+}
+.canvas{
+  border: 2px solid;
+  border-color: white;
+  display: block;
+}
+.dan{
+  font-weight: bold;
+}
+#stop{
+  visibility: hidden;
+}

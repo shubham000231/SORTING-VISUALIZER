@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sorintg Visulaizer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark add">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample03">
+      <div class="user-input">
+        <input type="text" placeholder="Enter the Array" name="input" id="input">
+        <button class="btn btn-outline-success" type="submit" id="change">Submit</button>
+        <button class="btn btn-outline-success extra" id="ref">RANDOM ARRAY</button>
+      </div>
+
+      <div class="middle">
+        <span> <label for="speed" class="extra">Choose Speed(0-10)</label></span>
+        <span><input type="range" name="speed" min="1" max="15" id="speed" value="speed"></span>
+      </div>
+
+      <div class="run-algo">
+        <button class="btn btn-outline-success extra" id="bubblesort">BubbleSort</button>
+        <button class="btn btn-outline-success extra" id="quicksort">QuickSort</button>
+        <button class="btn btn-outline-success extra" id="insertionsort">InsertionSort</button>
+        <button class="btn btn-outline-danger dan" id="stop">STOP</button>
+      </div>
+    </div>
+  </nav>
+  <div class="canvas" id="mycanvas">
+    <canvas id="myCanvas" width='1417' height='610' style='background:#dddddd ;'></canvas>
+  </div>
+
+
+  <script src="index2.js"></script>
+</body>
